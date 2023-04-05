@@ -36,6 +36,14 @@ function NavTabs(){
                     isActive ? 'nav-link active' : 'nav-link'
                   }>Photography</NavLink>
             </li>
+            <li className="nav-item">
+                <NavLink 
+                to='/contact' 
+                end 
+                className={({ isActive }) =>
+                    isActive ? 'nav-link active' : 'nav-link'
+                  }>Contact</NavLink>
+            </li>
     
             </ul>
         </div>

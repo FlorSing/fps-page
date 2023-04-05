@@ -6,7 +6,7 @@ import NavTabs from './components/NavTabs';
 import Design from './components/design';
 import Photography from './components/photography';
 import Projects from './components/projects';
-
+import Contact from './components/contact';
 
 function App() {
   
@@ -23,7 +23,7 @@ function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="design" element={<Design />} />
           <Route path="photography" element={<Photography />} />
-          {/* <Route path="contact" element={<Contact />} /> */}
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
