@@ -1,14 +1,16 @@
-import Footer from './Footer';
-import './Home.css'
+import About from "./about";
+import React, { Component } from "react";
 
-export default function Home() {
+
+class Home extends Component {
+  render() {
   return (
-     <Footer>
-      <footer>
-         <span>
-           Copyright: FPS 2023
-         </span>
-       </footer>
-       </Footer>
-  );
+    <About>
+    </About>
+    );
+  }
 }
+
+
+export default Home;
+

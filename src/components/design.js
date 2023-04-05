@@ -3,12 +3,13 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import ListSubheader from '@mui/material/ListSubheader';
+import { Container } from '@mui/material';
 
 export default function Design() {
   return (
-    <ImageList sx={{ width: 750, height: 725 }}>
+    <Container>
+    <ImageList sx={{ width: 1200, height: 900 }}>
       <ImageListItem key="Subheader" cols={2}>
-        <ListSubheader component="div">Grapic Design Projects</ListSubheader>
       </ImageListItem>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
@@ -21,18 +22,12 @@ export default function Design() {
           <ImageListItemBar
             title={item.title}
             subtitle={item.author}
-            // actionIcon={
-            //   <IconButton
-            //     sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
-            //     aria-label={`info about ${item.title}`}
-            //   >
-            //     <InfoIcon />
-            //   </IconButton>
-            // }
+
           />
         </ImageListItem>
       ))}
     </ImageList>
+    </Container>
   );
 }
 

@@ -2,13 +2,13 @@ import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import ListSubheader from '@mui/material/ListSubheader';
+import { Container } from '@mui/material';
 
 export default function Photography() {
   return (
+    <Container>
     <ImageList sx={{ width: 1200, height: 900 }}>
       <ImageListItem key="Subheader" cols={2}>
-        <ListSubheader component="div">Grapic Design Projects</ListSubheader>
       </ImageListItem>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
@@ -24,6 +24,7 @@ export default function Photography() {
         </ImageListItem>
       ))}
     </ImageList>
+    </Container>
   );
 }
 

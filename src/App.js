@@ -1,34 +1,27 @@
-import './App.css';
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home'
-import NavTabs from './components/NavTabs';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Home from './components/Home';
+import Header from './components/header'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Projects from './components/projects';
 import Design from './components/design';
 import Photography from './components/photography';
-import Projects from './components/projects';
 import Contact from './components/contact';
 
 function App() {
-  
-    return (
-      <Router>
-      <div>
-        <NavTabs />
-        {/* Wrap Route elements in a Routes component */}
-        <Routes>
-          {/* Define routes using the Route component to render different page components at different paths */}
-          {/* Define a default route that will render the Home component */}
-          <Route path="/" element={<Home />} />
-          {/* <Route path="projects" element={<Projects />} /> */}
-          <Route path="projects" element={<Projects />} />
-          <Route path="design" element={<Design />} />
-          <Route path="photography" element={<Photography />} />
-          <Route path="contact" element={<Contact />} />
-        </Routes>
-      </div>
+  return (
+    <Router>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/Home' element={<Home/>} />
+        <Route path='/projects' element={<Projects/>} />
+        <Route path='/design' element={<Design/>} />
+        <Route path='/photography' element={<Photography/>} />
+        <Route path='/contact' element={<Contact/>} />
+      </Routes>
     </Router>
-      );
-  }
+  );
+}
 
 
 export default App;
