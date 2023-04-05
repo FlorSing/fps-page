@@ -3,12 +3,10 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import ListSubheader from '@mui/material/ListSubheader';
-import IconButton from '@mui/material/IconButton';
-import InfoIcon from '@mui/icons-material/Info';
 
 export default function Photography() {
   return (
-    <ImageList sx={{ width: 1500, height: 1450 }}>
+    <ImageList sx={{ width: 1200, height: 900 }}>
       <ImageListItem key="Subheader" cols={2}>
         <ListSubheader component="div">Grapic Design Projects</ListSubheader>
       </ImageListItem>
@@ -22,15 +20,6 @@ export default function Photography() {
           />
           <ImageListItemBar
             title={item.title}
-            subtitle={item.author}
-            // actionIcon={
-            //   <IconButton
-            //     sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
-            //     aria-label={`info about ${item.title}`}
-            //   >
-            //     <InfoIcon />
-            //   </IconButton>
-            // }
           />
         </ImageListItem>
       ))}
@@ -41,73 +30,53 @@ export default function Photography() {
 const itemData = [
   {
     img: 'https://user-images.githubusercontent.com/118206899/229830193-a53b6b83-81df-4c52-ab8c-5d9e364c0cae.JPG',
-    title: 'water speed capture',
-    author: '@FlorSing',
+    title: 'Capture water flow',
     rows: 2,
     cols: 2,
     featured: true,
   },
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
-    author: '@rollelflex_graphy726',
+    img: 'https://user-images.githubusercontent.com/118206899/230116369-188fabf7-1889-4282-8119-026d64be1a84.JPG',
+    title: 'Autumn tree',
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
-    author: '@helloimnik',
+    img: 'https://user-images.githubusercontent.com/118206899/230116797-186bca95-7e2e-45e8-a120-243dfa533ee8.JPG',
+    title: 'Under the green leaves',
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
-    author: '@nolanissac',
+    img: 'https://user-images.githubusercontent.com/118206899/230116998-ae536bbd-9c87-40b8-9ea4-6a377d78b13c.JPG',
+    title: 'Canal Boats',
     cols: 2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
-    author: '@hjrc33',
+    img: 'https://user-images.githubusercontent.com/118206899/230117202-22293843-1ca7-46be-baa1-4a3061bc5570.JPG',
+    title: 'Passage Way',
     cols: 2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-    title: 'Honey',
-    author: '@arwinneil',
+    img: 'https://user-images.githubusercontent.com/118206899/230117425-1bf91d83-2e44-4683-ba2f-ed687d2a1a77.JPG',
+    title: 'London Bridge',
     rows: 2,
     cols: 2,
     featured: true,
   },
   {
-    img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-    title: 'Basketball',
-    author: '@tjdragotta',
+    img: 'https://user-images.githubusercontent.com/118206899/230117986-716a891e-5c21-4dda-9810-210378bc4270.JPG',
+    title: 'Lady Winter',
   },
   {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-    title: 'Fern',
-    author: '@katie_wasserman',
+    img: 'https://user-images.githubusercontent.com/118206899/230118152-804fb19d-81c8-4d7f-94dd-00cf7406bff2.JPG',
+    title: 'Butterfly',
   },
   {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-    title: 'Mushrooms',
-    author: '@silverdalex',
+    img: 'https://user-images.githubusercontent.com/118206899/230118359-2d8efc52-90bd-4037-bb67-3f8a331d7172.JPG',
+    title: 'Lone Bench',
+  },
+  {
+    img: 'https://user-images.githubusercontent.com/118206899/230118550-e63d1f63-59b8-41c6-8a45-1a22c5ee6ad8.JPG',
+    title: 'Thinking',
     rows: 2,
     cols: 2,
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-    title: 'Tomato basil',
-    author: '@shelleypauls',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
-    author: '@peterlaster',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
-    author: '@southside_customs',
-    cols: 2,
-  },
+  }
+
 ];

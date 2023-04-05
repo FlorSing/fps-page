@@ -12,7 +12,7 @@ class Contact extends Component {
  
     <div className='contacts'>
       <div>
-      <h1>Contact Page</h1>
+      <h2>Contact Page</h2>
       </div>
       <div>
         <p>Email: <br></br>
