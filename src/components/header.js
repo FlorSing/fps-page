@@ -43,7 +43,7 @@ function Header(){
             end 
             className={({ isActive }) =>
                 isActive ? 'nav-link active' : 'nav-link'
-              }>contact</NavLink>
+              }>Contact</NavLink>
         </li>
 
         </ul>

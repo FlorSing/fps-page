@@ -1,15 +1,19 @@
 import About from "./about";
-import React, { Component } from "react";
+import React from "react";
+import './home.css';
 
-
-class Home extends Component {
-  render() {
+function Home() {
   return (
-    <About>
-    </About>
+  <div>
+    <div className="jumbotron">
+        <h1 id='name'>Florante P. Singcak</h1>
+        <h3>Front-end Web Developer</h3>
+    </div>
+    <About />
+  </div>
     );
   }
-}
+
 
 
 export default Home;

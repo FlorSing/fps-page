@@ -1,0 +1,13 @@
+.jumbotron {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightblue;
+    background-image: url('../assets/DARKcodingbackground.png');
+    background-size:auto;
+    background-repeat: no-repeat;
+    height: calc(30vh - 25px);
+}
+
+#name{
+    font-size: 8vw;
+
+}

@@ -1,10 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind pages;
-
 body {
   margin: 0;
-  background-color: rgb(72, 109, 139);
+  background-color: rgb(177, 205, 228) !important;
   font-family: Georgia, 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,24 +12,3 @@ code {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* MASONRY */
-.my-masonry-grid {
-  display: -webkit-box; /* Not needed if autoprefixing */
-  display: -ms-flexbox; /* Not needed if autoprefixing */
-  display: flex;
-  margin-left: -30px;
-   /* gutter size offset */
-  width: auto;
-}
-.my-masonry-grid_column {
-  padding-left: 30px; /* gutter size */
-  background-clip: padding-box;
-}
-
-/* Style your items */
-.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
-  background-color: white;
-  border: solid 3px lightgrey;
-  border-radius: 20px;
-  margin-bottom: 30px;
-}
