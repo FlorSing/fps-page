@@ -2,7 +2,7 @@
   "name": "fps-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://FlorSing.github.io/fps-page",
+  "homepage": "https://florsing.github.io/fps-page/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -30,8 +30,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
-  
   "eslintConfig": {
     "extends": [
       "react-app",
