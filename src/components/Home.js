@@ -1,5 +1,6 @@
 import About from "./about";
 import React from "react";
+import Footer from "./Footer";
 import './home.css';
 
 function Home() {
@@ -10,6 +11,13 @@ function Home() {
         <h3>Front-end Web Developer</h3>
     </div>
     <About />
+    <Footer>
+      <div className="footer">
+        <p>
+          Copyright: FPS
+        </p>
+      </div>
+    </Footer>
   </div>
     );
   }

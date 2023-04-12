@@ -2,13 +2,12 @@ import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import ListSubheader from '@mui/material/ListSubheader';
 import { Container } from '@mui/material';
 
 export default function Design() {
   return (
     <Container>
-    <ImageList sx={{ width: 1200, height: 900 }}>
+    <ImageList sx={{ width: 800, height: 600 }}>
       <ImageListItem key="Subheader" cols={2}>
       </ImageListItem>
       {itemData.map((item) => (

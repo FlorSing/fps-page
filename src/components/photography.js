@@ -7,7 +7,7 @@ import { Container } from '@mui/material';
 export default function Photography() {
   return (
     <Container>
-    <ImageList sx={{ width: 1200, height: 900 }}>
+    <ImageList sx={{ width:800, height: 600 }}>
       <ImageListItem key="Subheader" cols={2}>
       </ImageListItem>
       {itemData.map((item) => (
