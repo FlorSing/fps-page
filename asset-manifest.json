@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fps-page/static/css/main.ff653e2a.css",
+    "main.js": "/fps-page/static/js/main.849da1f3.js",
+    "static/media/DARKcodingbackground.png": "/fps-page/static/media/DARKcodingbackground.89bbb71c11d97b3854ed.png",
+    "static/media/FpsIDblue.png": "/fps-page/static/media/FpsIDblue.404af0dc0db8ca8b2984.png",
+    "index.html": "/fps-page/index.html",
+    "main.ff653e2a.css.map": "/fps-page/static/css/main.ff653e2a.css.map",
+    "main.849da1f3.js.map": "/fps-page/static/js/main.849da1f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff653e2a.css",
+    "static/js/main.849da1f3.js"
+  ]
+}
